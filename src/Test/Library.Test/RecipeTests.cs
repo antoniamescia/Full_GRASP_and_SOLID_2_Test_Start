@@ -51,7 +51,7 @@ namespace Library.Test
         }
 
         [Test]
-        public void GetTextToPrintIsNotNull() // Prueba que si agrega un paso a una lista con un paso, la nueva cantidad de pasos es dos.
+        public void GetTextToPrintIsNotNull() // Prueba que la funcion GetTextToPrint no devuelve una variable nula.
         {
            recipe.AddStep(step);
            recipe.FinalProduct = finalProduct;
